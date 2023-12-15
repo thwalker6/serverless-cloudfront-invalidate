@@ -1,5 +1,5 @@
 {
-  "name": "serverless-cloudfront-invalidate",
+  "name": "severless-cf-infalidate-proxy",
   "version": "1.12.2",
   "description": "Serverless plugin that allows you to invalidate Cloudfront Cache",
   "main": "index.js",
@@ -10,7 +10,7 @@
     "type": "git",
     "url": "git+https://github.com/aghadiry/serverless-cloudfront-invalidate.git"
   },
-  "author": "Amir Ghadiry",
+  "author": "Thomas Walker",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/aghadiry/serverless-cloudfront-invalidate/issues"
