@@ -1,4 +1,4 @@
-# severless-cf-infalidate-proxy
+# serverless-cf-invalidate-proxy
 
 Serverless plugin that allows you to invalidate Cloudfront Cache.  I created this as a fork off serverless-cloudfront-invalidate which works really great but there is a vulnerability in vm2 that is pretty major.  This is a workaround until someone the original owner updates theirs.  They did great work.
 
@@ -9,7 +9,7 @@ https://github.com/aghadiry/serverless-cloudfront-invalidate is the original rep
 Run `npm install` in your Serverless project.
 
 ```sh
-$ npm install --save severless-cf-infalidate-proxy
+$ npm install --save serverless-cf-invalidate-proxy
 ```
 
 ## Setup
@@ -18,7 +18,7 @@ Add the plugin to your serverless.yml file as the last plugin
 
 ```yaml
 plugins:
-  - severless-cf-infalidate-proxy # add as the last plugin
+  - serverless-cf-invalidate-proxy # add as the last plugin
 ```
 
 If the CDN is created as part of same serverless.yml then you can specify the `distributionIdKey` and output the DomainId (as shown in the sample below).
