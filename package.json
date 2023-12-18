@@ -1,6 +1,6 @@
 {
   "name": "serverless-cf-invalidate-proxy",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Serverless plugin that allows you to invalidate Cloudfront Cache",
   "main": "index.js",
   "scripts": {
@@ -21,5 +21,6 @@
     "chalk": "^2.3.1",
     "proxy-agent": "^6.0.0",
     "randomstring": "^1.1.5"
-  }
+  },
+  "devDependencies": {}
 }
